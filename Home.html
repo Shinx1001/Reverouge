@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RêveRouge | Architects of Visual Legacy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <span class="logo-text">Rêve<span class="logo-dot">Rouge.</span></span>
+        </div>
+        <nav class="nav-links">
+            <a href="#live-production">Live Production</a>
+            <a href="#interior-showcase">Interior Showcase</a>
+            <a href="#events-gallery">Events Gallery</a>
+        </nav>
+        <div class="header-action">
+            <a href="#contact" class="btn-inquire">INQUIRE</a>
+        </div>
+    </header>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1>Architects of <br><span class="highlight-italic">Visual Legacy</span></h1>
+            </div>
+            <div class="hero-right">
+                <span class="badge">Portfolio Feature</span>
+                <p class="hero-subtext">We translate complex emotion into singular, unforgettable imagery for events, brands, and spaces.</p>
+            </div>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slide active">
+                    <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=1200" alt="Events Feature">
+                    <div class="slide-category">EVENTS</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200" alt="Interior Showcase">
+                    <div class="slide-category">INTERIOR SHOWCASE</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200" alt="Live Production">
+                    <div class="slide-category">LIVE PRODUCTION</div>
+                </div>
+            </div>
+
+            <button class="slider-arrow arrow-left" id="prevSlide">&#x2039;</button>
+            <button class="slider-arrow arrow-right" id="nextSlide">&#x203A;</button>
+
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </main>
+
+    <section class="industries-section">
+        <div class="section-header">
+            <span class="section-tag">INDUSTRIES</span>
+            <h2>We don't shoot. <br><span class="highlight-italic">We architect</span> vision.</h2>
+        </div>
+
+        <div class="cards-grid">
+            <div class="industry-card" id="live-production">
+                <div class="card-bg-image" style="background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=600');"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="card-number">01</span>
+                    <h3>Live Production</h3>
+                    <p>Cutting-edge, multi-camera broadcasting and technical design built for scale.</p>
+                </div>
+            </div>
+
+            <div class="industry-card" id="interior-showcase">
+                <div class="card-bg-image" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600');"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="card-number">02</span>
+                    <h3>Interior Showcase</h3>
+                    <p>Transforming interior craftsmanship and architecture into high-end structural narratives.</p>
+                </div>
+            </div>
+
+            <div class="industry-card" id="events-gallery">
+                <div class="card-bg-image" style="background-image: url('https://images.unsplash.com/photo-1469371670807-013ccf25f16a?q=80&w=600');"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <span class="card-number">03</span>
+                    <h3>Events Gallery</h3>
+                    <p>Capturing the ephemeral magic of corporate showcases, launches, and elite moments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer" id="contact">
+        <div class="footer-cta">
+            <span class="section-tag">START A CONVERSATION</span>
+            <h2>TELL THE <br><span class="highlight-italic">STORY.</span></h2>
+            <a href="mailto:reverouge.sg@gmail.com" class="footer-email">reverouge.sg@gmail.com</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 REVEROUGE. ALL RIGHTS RESERVED.</p>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/reverouge.visual/" target="_blank">INSTAGRAM</a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
